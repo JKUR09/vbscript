@@ -1,8 +1,8 @@
 '## Two-factor authentication with Authy
 dim authyURL, authyID, authyKEY, authyParms, authyToken, o
 authyURL = "http://api.authy.com/protected/json/verify/"
-authyID = "_______" '## user ID to validate
 authyKEY = "________" '## your API key
+authyID = "_______" '## user ID to validate
 authyToken = "_______" '## token supplied by user
 
 authyParms = "api_key=" & authyKEY	
